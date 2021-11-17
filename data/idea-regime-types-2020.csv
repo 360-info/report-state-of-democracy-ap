@@ -1,0 +1,166 @@
+country,region,subregion,regime_type
+United States,North America,North America,High performing democracy
+Canada,North America,North America,Mid-range performing democracy
+Cuba,Latin America/Caribbean,Caribbean,Authoritarian Regime
+Haiti,Latin America/Caribbean,Caribbean,Hybrid Regime
+Dominican Republic,Latin America/Caribbean,Caribbean,Mid-range performing democracy
+Jamaica,Latin America/Caribbean,Caribbean,Weak democracy
+Trinidad and Tobago,Latin America/Caribbean,Caribbean,Mid-range performing democracy
+Barbados,Latin America/Caribbean,Caribbean,Mid-range performing democracy
+Mexico,Latin America/Caribbean,Central America,Mid-range performing democracy
+Guatemala,Latin America/Caribbean,Central America,Weak democracy
+Honduras,Latin America/Caribbean,Central America,Hybrid Regime
+El Salvador,Latin America/Caribbean,Central America,Weak democracy
+Nicaragua,Latin America/Caribbean,Central America,Authoritarian Regime
+Costa Rica,Latin America/Caribbean,Central America,Mid-range performing democracy
+Panama,Latin America/Caribbean,Central America,Mid-range performing democracy
+Colombia,Latin America/Caribbean,South America,Mid-range performing democracy
+Venezuela,Latin America/Caribbean,South America,Authoritarian Regime
+Ecuador,Latin America/Caribbean,South America,Mid-range performing democracy
+Peru,Latin America/Caribbean,South America,Mid-range performing democracy
+Brazil,Latin America/Caribbean,South America,Mid-range performing democracy
+Bolivia,Latin America/Caribbean,South America,Mid-range performing democracy
+Paraguay,Latin America/Caribbean,South America,Weak democracy
+Chile,Latin America/Caribbean,South America,Mid-range performing democracy
+Argentina,Latin America/Caribbean,South America,Mid-range performing democracy
+Uruguay,Latin America/Caribbean,South America,High performing democracy
+United Kingdom,Europe,North/Western Europe,High performing democracy
+Ireland,Europe,North/Western Europe,High performing democracy
+Netherlands,Europe,North/Western Europe,High performing democracy
+Belgium,Europe,North/Western Europe,High performing democracy
+Luxembourg,Europe,North/Western Europe,Mid-range performing democracy
+France,Europe,North/Western Europe,High performing democracy
+Switzerland,Europe,North/Western Europe,High performing democracy
+Spain,Europe,Southern Europe,Mid-range performing democracy
+Portugal,Europe,Southern Europe,Mid-range performing democracy
+Germany,Europe,North/Western Europe,High performing democracy
+Poland,Europe,East-Central Europe,Mid-range performing democracy
+Austria,Europe,North/Western Europe,High performing democracy
+Hungary,Europe,East-Central Europe,Mid-range performing democracy
+Czechia,Europe,East-Central Europe,Mid-range performing democracy
+Slovakia,Europe,East-Central Europe,Mid-range performing democracy
+Italy,Europe,Southern Europe,Mid-range performing democracy
+Albania,Europe,East-Central Europe,Weak democracy
+Montenegro,Europe,East-Central Europe,Mid-range performing democracy
+North Macedonia,Europe,East-Central Europe,Mid-range performing democracy
+Croatia,Europe,East-Central Europe,Mid-range performing democracy
+Serbia,Europe,East-Central Europe,Hybrid Regime
+Bosnia and Herzegovina,Europe,East-Central Europe,Weak democracy
+Kosovo,Europe,East-Central Europe,Mid-range performing democracy
+Slovenia,Europe,East-Central Europe,Mid-range performing democracy
+Greece,Europe,Southern Europe,Mid-range performing democracy
+Cyprus,Europe,Southern Europe,Mid-range performing democracy
+Bulgaria,Europe,East-Central Europe,Mid-range performing democracy
+Moldova,Europe,Eastern Europe,Mid-range performing democracy
+Romania,Europe,East-Central Europe,Mid-range performing democracy
+Russia,Europe,Eastern Europe,Hybrid Regime
+Estonia,Europe,East-Central Europe,Mid-range performing democracy
+Latvia,Europe,East-Central Europe,Mid-range performing democracy
+Lithuania,Europe,East-Central Europe,Mid-range performing democracy
+Ukraine,Europe,Eastern Europe,Mid-range performing democracy
+Belarus,Europe,Eastern Europe,Authoritarian Regime
+Armenia,Europe,Eastern Europe,Weak democracy
+Georgia,Europe,Eastern Europe,Mid-range performing democracy
+Azerbaijan,Europe,Eastern Europe,Authoritarian Regime
+Finland,Europe,North/Western Europe,High performing democracy
+Sweden,Europe,North/Western Europe,High performing democracy
+Norway,Europe,North/Western Europe,High performing democracy
+Denmark,Europe,North/Western Europe,High performing democracy
+Iceland,Europe,North/Western Europe,High performing democracy
+Cape Verde,Africa,West Africa,Mid-range performing democracy
+Guinea-Bissau,Africa,West Africa,Weak democracy
+Equatorial Guinea,Africa,Central Africa,Authoritarian Regime
+Gambia,Africa,West Africa,Weak democracy
+Mali,Africa,West Africa,Hybrid Regime
+Senegal,Africa,West Africa,Weak democracy
+Benin,Africa,West Africa,Hybrid Regime
+Mauritania,Africa,West Africa,Authoritarian Regime
+Niger,Africa,West Africa,Hybrid Regime
+Cote d'Ivoire,Africa,West Africa,Hybrid Regime
+Guinea,Africa,West Africa,Hybrid Regime
+Burkina Faso,Africa,West Africa,Weak democracy
+Liberia,Africa,West Africa,Weak democracy
+Sierra Leone,Africa,West Africa,Mid-range performing democracy
+Ghana,Africa,West Africa,Weak democracy
+Togo,Africa,West Africa,Hybrid Regime
+Cameroon,Africa,Central Africa,Authoritarian Regime
+Nigeria,Africa,West Africa,Weak democracy
+Gabon,Africa,Central Africa,Hybrid Regime
+Central African Republic,Africa,Central Africa,Hybrid Regime
+Chad,Africa,Central Africa,Authoritarian Regime
+Republic of Congo,Africa,Central Africa,Authoritarian Regime
+Democratic Republic of the Congo,Africa,Central Africa,Authoritarian Regime
+Uganda,Africa,East Africa,Authoritarian Regime
+Kenya,Africa,East Africa,Mid-range performing democracy
+Tanzania,Africa,East Africa,Hybrid Regime
+Burundi,Africa,East Africa,Authoritarian Regime
+Rwanda,Africa,East Africa,Authoritarian Regime
+Somalia,Africa,East Africa,Authoritarian Regime
+Ethiopia,Africa,East Africa,Authoritarian Regime
+Eritrea,Africa,East Africa,Authoritarian Regime
+Angola,Africa,Southern Africa,Hybrid Regime
+Mozambique,Africa,Southern Africa,Hybrid Regime
+Zambia,Africa,Southern Africa,Hybrid Regime
+Zimbabwe,Africa,Southern Africa,Authoritarian Regime
+Malawi,Africa,Southern Africa,Mid-range performing democracy
+South Africa,Africa,Southern Africa,Mid-range performing democracy
+Namibia,Africa,Southern Africa,Mid-range performing democracy
+Lesotho,Africa,Southern Africa,Mid-range performing democracy
+Botswana,Africa,Southern Africa,Mid-range performing democracy
+Eswatini,Africa,Southern Africa,Authoritarian Regime
+Madagascar,Africa,Southern Africa,Weak democracy
+Mauritius,Africa,Southern Africa,Mid-range performing democracy
+Morocco,Africa,North Africa,Hybrid Regime
+Algeria,Africa,North Africa,Authoritarian Regime
+Tunisia,Africa,North Africa,Mid-range performing democracy
+Libya,Africa,North Africa,Authoritarian Regime
+Sudan,Africa,North Africa,Authoritarian Regime
+South Sudan,Africa,North Africa,Authoritarian Regime
+Iran,Middle East,Middle East,Authoritarian Regime
+Turkey,Europe,Southern Europe,Hybrid Regime
+Iraq,Middle East,Middle East,Weak democracy
+Egypt,Africa,North Africa,Authoritarian Regime
+Syria,Middle East,Middle East,Authoritarian Regime
+Lebanon,Middle East,Middle East,Weak democracy
+Palestine/West Bank,Middle East,Middle East,Authoritarian Regime
+Jordan,Middle East,Middle East,Hybrid Regime
+Israel,Middle East,Middle East,Mid-range performing democracy
+Saudi Arabia,Middle East,Middle East,Authoritarian Regime
+Yemen,Middle East,Middle East,Authoritarian Regime
+Kuwait,Middle East,Middle East,Hybrid Regime
+Bahrain,Middle East,Middle East,Authoritarian Regime
+Qatar,Middle East,Middle East,Authoritarian Regime
+United Arab Emirates,Middle East,Middle East,Authoritarian Regime
+Oman,Middle East,Middle East,Authoritarian Regime
+Afghanistan,Asia/Pacific,South Asia,Hybrid Regime
+Turkmenistan,Asia/Pacific,Central Asia,Authoritarian Regime
+Tajikistan,Asia/Pacific,Central Asia,Authoritarian Regime
+Kyrgyzstan,Asia/Pacific,Central Asia,Hybrid Regime
+Uzbekistan,Asia/Pacific,Central Asia,Authoritarian Regime
+Kazakhstan,Asia/Pacific,Central Asia,Authoritarian Regime
+China,Asia/Pacific,East Asia,Authoritarian Regime
+Mongolia,Asia/Pacific,East Asia,Weak democracy
+Taiwan,Asia/Pacific,East Asia,Mid-range performing democracy
+Democratic People's Republic of Korea,Asia/Pacific,East Asia,Authoritarian Regime
+Republic of Korea,Asia/Pacific,East Asia,Mid-range performing democracy
+Japan,Asia/Pacific,East Asia,Mid-range performing democracy
+India,Asia/Pacific,South Asia,Mid-range performing democracy
+Pakistan,Asia/Pacific,South Asia,Weak democracy
+Bangladesh,Asia/Pacific,South Asia,Authoritarian Regime
+Myanmar,Asia/Pacific,South-East Asia,Weak democracy
+Sri Lanka,Asia/Pacific,South Asia,Mid-range performing democracy
+Nepal,Asia/Pacific,South Asia,Mid-range performing democracy
+Thailand,Asia/Pacific,South-East Asia,Authoritarian Regime
+Cambodia,Asia/Pacific,South-East Asia,Authoritarian Regime
+Laos,Asia/Pacific,South-East Asia,Authoritarian Regime
+Viet Nam,Asia/Pacific,South-East Asia,Authoritarian Regime
+Malaysia,Asia/Pacific,South-East Asia,Weak democracy
+Singapore,Asia/Pacific,South-East Asia,Hybrid Regime
+Philippines,Asia/Pacific,South-East Asia,Mid-range performing democracy
+Indonesia,Asia/Pacific,South-East Asia,Weak democracy
+Timor-Leste,Asia/Pacific,South-East Asia,Mid-range performing democracy
+Australia,Asia/Pacific,Oceania,High performing democracy
+Papua New Guinea,Asia/Pacific,Oceania,Weak democracy
+New Zealand,Asia/Pacific,Oceania,High performing democracy
+Solomon Islands,Asia/Pacific,Oceania,Weak democracy
+Fiji,Asia/Pacific,Oceania,Weak democracy
