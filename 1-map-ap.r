@@ -4,6 +4,8 @@ library(rgeoboundaries)
 library(countrycode)
 library(wbstats)
 library(systemfonts)
+library(ragg)
+library(png)
 library(here)
 
 # 0. dictionary of country name overrides
@@ -99,7 +101,7 @@ register_variant(
   name = "Franklin 360 Medium", family = "Libre Franklin", weight = "medium")
 
 # map it!
-mymap <- ggplot() +
+bubble_map <- ggplot() +
   # country boundaries
   geom_sf(data = ap, fill = "#cccccc", colour = "white") +
   # bubbles
@@ -132,6 +134,8 @@ mymap <- ggplot() +
     # legend.position = "top",
     # legend.direction = "horizontal",
     plot.title.position = "plot",
+    panel.border = element_blank(),
+    panel.background = element_blank(),
     plot.caption =
       element_text(hjust = 0, margin = margin(20, 0, 0, 0), size = rel(0.75),
         colour = "#6b767f"),
@@ -143,4 +147,17 @@ mymap <- ggplot() +
     subtitle = toupper("Some subtitle here"),
     caption = "Source: https://www.idea.int/gsod-indices/democracy-indices")
 
-ggsave(here("out", "ap-map.png"), mymap, width = 16, height = 9)
+# add the 360 logo
+# (note: i haven't version controlled a logo yet)
+logo_360 <-
+  here("360-logo.png") %>%
+  readPNG() %>%
+  rasterGrob(1, 1, just = c("right", "top"),
+    height = unit(72, 'points'),
+    interpolate = TRUE)
+
+# composite and write to disk
+agg_png(here("out", "ap-map.png"), width = 16, height = 9, units = "in",
+  res = 300)
+grid.draw(gList(ggplotGrob(bubble_map), logo_360))
+dev.off()
