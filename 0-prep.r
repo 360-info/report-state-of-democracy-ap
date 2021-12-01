@@ -6,6 +6,10 @@ read_csv(
   paste0(
     "https://www.idea.int/gsod-indices/sites/default/files/inline-files/",
     "GSoDI%20v5.1%20%281975-2020%29.csv")) %>%
+  write_csv(here("data", "idea-gsod-all.csv")) ->
+gsod_all
+
+gsod_all %>%
   filter(ID_year == 2020L, !is.na(democratic_performance_name)) %>%
   select(
     country = ID_country_name,
