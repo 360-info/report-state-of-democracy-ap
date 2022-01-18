@@ -12,6 +12,8 @@ Other charts are made available under a [Creative Commons Attribution 4.0](https
 
 Our analyses are done in [R](http://r-project.org) using data from the `data` folder.
 
+The `renv.lock` file can be used with the [`renv`](https://rstudio.github.io/renv) or [`capsule`](https://github.com/MilesMcBain/capsule) packages to recreate the R package dependencies.
+
 ## Help
 
 If you find any problems with our analysis or the map, please feel free to [create an issue](https://github.com/360-info/report-state-of-democracy/issues/new)!

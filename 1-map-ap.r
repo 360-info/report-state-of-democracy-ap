@@ -46,10 +46,9 @@ geoboundaries() %>%
       "KAZ", "KGZ", "TJK", "TKM", "UZB", "CHN", "PRK", "JPN", "MNG", "KOR", "TWN", "AUS", "NZL", "PNG", "SLB", "AFG", "BGD", "IND", "NPL", "PAK", "LKA", "KHM", "IDN", "LAO", "MYS", "MMR", "SGP", "THA", "TLS", "VNM", "FJI")) %>%
   bind_rows(phl) %>%
   select(iso3 = shapeISO) %>%
-  st_shift_longitude() -> ap
+  st_shift_longitude() ->
   # simplify boundaries
   # st_simplify(dTolerance = 10000)
-  ->
 ap
 
 object.size(ap) %>% format(units = "MB")
