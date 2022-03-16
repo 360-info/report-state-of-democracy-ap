@@ -37,7 +37,7 @@ ggplot(education) +
   geom_line() +
   geom_point(size = 3) +
   scale_y_continuous(limits = c(0, 1), labels = scales::percent) +
-  theme_360info() +
+  theme_360() +
   theme(
     legend.position = c(0.99, 0.9),
     legend.direction = "horizontal",
@@ -47,27 +47,16 @@ ggplot(education) +
     x = NULL, y = NULL,
     colour = "Education level",
     title = toupper("Satisfaction in UK Democracy"),
-    subtitle = toupper("Subtitle here"),
-    caption = "**SOURCE: X and Y**, test test test") ->
+    caption = "**SOURCE:** TrustGov survey, conducted by Ipsos MORI<br>in May 2020") ->
 edu_chart
 
-logo_360 <-
-  here("360-logo.png") %>%
-  readPNG() %>%
-  rasterGrob(0.97, 0.03, just = c("right", "bottom"),
-    height = unit(1, "cm"),
-    interpolate = TRUE)
-
-# composite and write to disk
-agg_png(here("out", "uk-edu-chart.png"), width = 1200, height = 600,
-  units = "px", res = 120)
-grid.draw(gList(ggplotGrob(edu_chart), logo_360))
-dev.off()
-
-svglite(here("out", "uk-edu-chart.svg"), width = 6, height = 3, scaling = 0.7)
-grid.draw(gList(ggplotGrob(edu_chart), logo_360))
-dev.off()
-
+dir.create(here("out"))
+register_360fonts("itc")
+save_360plot(edu_chart, here("out", "uk-edu-chart.png"),
+  shape = "sdtv-landscape")
+register_360fonts("libre")
+save_360plot(edu_chart, here("out", "uk-edu-chart.svg"),
+  shape = "sdtv-landscape")
 
 # ---- a) by leave/remain -----------------------------------------------------
 
@@ -93,7 +82,7 @@ ggplot(brexit) +
   geom_line() +
   geom_point(size = 3) +
   scale_y_continuous(limits = c(0, 1), labels = scales::percent) +
-  theme_360info() +
+  theme_360() +
   theme(
     legend.position = c(0.99, 0.9),
     legend.direction = "horizontal",
@@ -103,25 +92,14 @@ ggplot(brexit) +
     x = NULL, y = NULL,
     colour = "Brexit position",
     title = toupper("Satisfaction in UK Democracy"),
-    subtitle = toupper("Subtitle here"),
-    caption = "**SOURCE: X and Y**, test test test") ->
+    caption = "**SOURCE:** TrustGov survey, conducted by Ipsos MORI<br>in May 2020") ->
 brexit_chart
 
-logo_360 <-
-  here("360-logo.png") %>%
-  readPNG() %>%
-  rasterGrob(0.97, 0.03, just = c("right", "bottom"),
-    height = unit(1, "cm"),
-    interpolate = TRUE)
-
-# composite and write to disk
-agg_png(here("out", "uk-brexit-chart.png"), width = 1200, height = 600,
-  units = "px", res = 120)
-grid.draw(gList(ggplotGrob(brexit_chart), logo_360))
-dev.off()
-
-svglite(here("out", "uk-brexit-chart.svg"), width = 6, height = 3, scaling = 0.7)
-grid.draw(gList(ggplotGrob(brexit_chart), logo_360))
-dev.off()
-
+dir.create(here("out"))
+register_360fonts("itc")
+save_360plot(brexit_chart, here("out", "uk-brexit-chart.png"),
+  shape = "sdtv-landscape")
+register_360fonts("libre")
+save_360plot(brexit_chart, here("out", "uk-brexit-chart.svg"),
+  shape = "sdtv-landscape")
 

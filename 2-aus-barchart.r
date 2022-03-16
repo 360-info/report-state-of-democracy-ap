@@ -122,7 +122,7 @@ gsod_aus_tidy %>%
           "High" = "#96ca4f",
           "Medium" = "#ffd000",
           "Low" = "#c00808")) +
-      theme_360info() +
+      theme_360() +
       theme(
         legend.position = "top",
         legend.direction = "horizontal",
@@ -138,36 +138,14 @@ gsod_aus_tidy %>%
         title = toupper("Australia"),
         subtitle = toupper(
           "Democratic performance 2020 compared to Asia-Pacific"),
-        caption = "Source: IDEA, The Global State of Democracy Indices 1975–2020, v5.1 (2021)\n<https://www.idea.int/gsod-indices>. Accessed 2021-12-01."
+        caption = "**Source:** IDEA, The Global State of Democracy Indices 1975–2020,<br>v5.1 (2021)[idea.int/gsod-indices]. Accessed 2021-12-01."
       )
   } -> gsod_aus_barchart
 
-# print
-
-# add the 360 logo
-# (note: i haven't version controlled a logo yet)
-logo_360 <-
-  here("360-logo.png") %>%
-  readPNG() %>%
-  rasterGrob(0.97, 0.03, just = c("right", "bottom"),
-    height = unit(1, "cm"),
-    interpolate = TRUE)
-
-# composite and write to disk
-agg_png(here("out", "aus-barchart.png"), width = 1200, height = 1800,
-  units = "px", res = 150)
-grid.draw(gList(ggplotGrob(gsod_aus_barchart), logo_360))
-dev.off()
-
-# use theme_360info(base_size = 10) for svg output
-svglite(here("out", "aus-barchart.svg"), width = 6, height = 9)
-grid.draw(gList(ggplotGrob(gsod_aus_barchart), logo_360))
-dev.off()
-
-svglite(here("out", "aus-barchart-test.svg"), width = 6, height = 9, scaling = 0.7)
-grid.draw(gList(ggplotGrob(gsod_aus_barchart), logo_360))
-dev.off()
-
-
-
-
+dir.create(here("out"))
+register_360fonts("itc")
+save_360plot(gsod_aus_barchart, here("out", "aus-barchart.png"),
+  shape = "sdtv-portrait")
+register_360fonts("libre")
+save_360plot(gsod_aus_barchart, here("out", "aus-barchart.svg"),
+  shape = "sdtv-portrait")
