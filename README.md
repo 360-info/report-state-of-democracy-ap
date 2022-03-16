@@ -1,5 +1,7 @@
 # Visualisations of the State of Democracy
 
+![aus-barchart](https://user-images.githubusercontent.com/6520659/158497168-3231a2ad-e073-4223-98b0-3df6e81f3320.png)
+
 ## Use + Remix
 
 Some charts use data made available by the [International Institute for Democracy and Electoral Assistance](https://www.idea.int/gsod-indices) under a [Creative Commons Non-Commerecial Share-Alike Licence](https://www.idea.int/creative-commons-licence).
